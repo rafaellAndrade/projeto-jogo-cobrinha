@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.cobra-img {
+    display: flex;
+    padding-top: 10%;
+    width: 25%;
+    height: 25%;
+}
+.game {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(44, 139, 44);
+    font-size: 40px;
+}
+
+#snake {
+    border: 1px solid black;    
+}
+
+@media screen and (max-width: 1100px){
+    .game {
+        font-size: 30px;
+    }
+
+    .cobra-img {
+        display: flex;
+        padding-top: 10%;
+        width: 15%;
+        height: 15%;
+    }
+}
+
+@media screen and (max-width: 800px){  
+    .cobra-img {
+        display: none;
+    }
+}
